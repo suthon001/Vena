@@ -19,7 +19,7 @@ pageextension 82004 "VENA Posted Sales Invoice" extends "Posted Sales Invoice"
                 Visible = CheckDisableLCL;
                 trigger OnAction()
                 var
-                    ARVoucher: Report "YVS AR Voucher (Post)";
+                    ARVoucher: Report "VENA AR Voucher (Post)";
                     SalesHeader: Record "Sales Invoice Header";
                 begin
                     SalesHeader.reset();
