@@ -1,0 +1,36 @@
+{
+  "id": "03fb2299-b423-42bd-b779-80f0025c93cc",
+  "name": "Vena Extension",
+  "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www.votivasoft.com/",
+  "logo": "./YVS-logo-01.jpg",
+  "dependencies": [
+    {
+      "id": "c80e25ac-8f80-4d65-85b9-211b292609b8",
+      "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
+      "name": "Thai Localized",
+      "version": "24.0.2.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 82000,
+      "to": 82050
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "13.0"
+}
