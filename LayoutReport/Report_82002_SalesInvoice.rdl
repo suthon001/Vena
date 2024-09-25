@@ -4673,7 +4673,7 @@ Due Date</Value>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>อนุมติโดย</Value>
+                      <Value>อนุมัติโดย</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>

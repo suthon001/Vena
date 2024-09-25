@@ -2521,7 +2521,7 @@ Due Date</Value>
                               <Top>0.08114cm</Top>
                               <Left>0.06336cm</Left>
                               <Height>4.60429cm</Height>
-                              <Width>19.56601cm</Width>
+                              <Width>19.56602cm</Width>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -4688,7 +4688,7 @@ Due Date</Value>
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>อนุมติโดย</Value>
+                      <Value>อนุมัติโดย</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>

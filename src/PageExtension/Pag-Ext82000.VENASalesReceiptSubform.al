@@ -5,7 +5,7 @@ pageextension 82000 "VENA Sales Receipt Subform" extends "YVS Sales Receipt Subf
 {
     layout
     {
-        addafter(Amount)
+        addafter("Source Due Date")
         {
             field("VENA Sales (LCY)"; rec."VENA Sales (LCY)")
             {
