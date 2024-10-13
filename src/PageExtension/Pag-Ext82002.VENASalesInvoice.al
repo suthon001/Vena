@@ -64,13 +64,13 @@ pageextension 82002 "VENA Sales Invoice" extends "Sales Invoice"
             action("VENAPrint_DebitNote")
             {
                 ApplicationArea = All;
-                Caption = 'Sales Invoice';
+                Caption = 'Debit Note';
                 Image = PrintReport;
                 Promoted = true;
                 PromotedIsBig = true;
                 PromotedCategory = Report;
                 Visible = CheckDisableLCL;
-                ToolTip = 'Executes the Sales Invoice action.';
+                ToolTip = 'Executes the Debit Note action.';
                 trigger OnAction()
                 var
                     RecSalesHeader: Record "Sales Header";
