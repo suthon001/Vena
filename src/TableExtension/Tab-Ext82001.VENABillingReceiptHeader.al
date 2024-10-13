@@ -12,5 +12,15 @@ tableextension 82001 "VENA Billing Receipt Header" extends "YVS Billing Receipt 
             CalcFormula = Sum("YVS Billing Receipt Line"."VENA Sales (LCY)" WHERE("Document Type" = FIELD("Document Type"),
             "Document No." = FIELD("No.")));
         }
+        field(82001; "VENA Cheque Bank Name"; text[100])
+        {
+            Caption = 'Cheque Bank Name';
+            DataClassification = CustomerContent;
+        }
+        field(82002; "VENA Cheque Bank Branch"; text[100])
+        {
+            Caption = 'Cheque Bank Branch';
+            DataClassification = CustomerContent;
+        }
     }
 }

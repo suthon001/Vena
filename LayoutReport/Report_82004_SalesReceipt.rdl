@@ -340,6 +340,14 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
+                                                    <Value xml:space="preserve"> </Value>
+                                                    <Style>
+                                                      <FontFamily>Tahoma</FontFamily>
+                                                      <FontSize>8pt</FontSize>
+                                                      <Format>#,0.00</Format>
+                                                    </Style>
+                                                  </TextRun>
+                                                  <TextRun>
                                                     <Value>=Fields!Source_Document_No_.Value</Value>
                                                     <Style>
                                                       <FontFamily>Tahoma</FontFamily>
@@ -365,7 +373,7 @@
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style>
-                                                  <TextAlign>Center</TextAlign>
+                                                  <TextAlign>Left</TextAlign>
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
@@ -1625,7 +1633,7 @@
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>8.14033cm</Height>
+          <Height>8.62716cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -1641,105 +1649,6 @@
                 </Border>
               </Style>
             </Line>
-            <Rectangle Name="Rectangle1">
-              <ReportItems>
-                <Textbox Name="Textbox1">
-                  <CanGrow>true</CanGrow>
-                  <KeepTogether>true</KeepTogether>
-                  <Paragraphs>
-                    <Paragraph>
-                      <TextRuns>
-                        <TextRun>
-                          <Value>=First(Fields!BankName.Value, "DataSet_Result")</Value>
-                          <Style>
-                            <FontFamily>Tahoma</FontFamily>
-                            <FontSize>8pt</FontSize>
-                          </Style>
-                        </TextRun>
-                      </TextRuns>
-                      <Style>
-                        <TextAlign>Center</TextAlign>
-                      </Style>
-                    </Paragraph>
-                  </Paragraphs>
-                  <rd:DefaultName>Textbox1</rd:DefaultName>
-                  <Top>0.88775cm</Top>
-                  <Left>3.82099cm</Left>
-                  <Height>0.6cm</Height>
-                  <Width>3.56089cm</Width>
-                  <Style>
-                    <Border>
-                      <Style>None</Style>
-                    </Border>
-                    <VerticalAlign>Middle</VerticalAlign>
-                    <PaddingLeft>2pt</PaddingLeft>
-                    <PaddingRight>2pt</PaddingRight>
-                    <PaddingTop>2pt</PaddingTop>
-                    <PaddingBottom>2pt</PaddingBottom>
-                  </Style>
-                </Textbox>
-                <Textbox Name="Textbox2">
-                  <CanGrow>true</CanGrow>
-                  <KeepTogether>true</KeepTogether>
-                  <Paragraphs>
-                    <Paragraph>
-                      <TextRuns>
-                        <TextRun>
-                          <Value>=First(Fields!BankBranchNo.Value, "DataSet_Result")</Value>
-                          <Style>
-                            <FontFamily>Tahoma</FontFamily>
-                            <FontSize>8pt</FontSize>
-                          </Style>
-                        </TextRun>
-                      </TextRuns>
-                      <Style>
-                        <TextAlign>Center</TextAlign>
-                      </Style>
-                    </Paragraph>
-                  </Paragraphs>
-                  <rd:DefaultName>Textbox1</rd:DefaultName>
-                  <Top>0.88775cm</Top>
-                  <Left>8.5702cm</Left>
-                  <Height>0.6cm</Height>
-                  <Width>2.61124cm</Width>
-                  <ZIndex>1</ZIndex>
-                  <Style>
-                    <Border>
-                      <Style>None</Style>
-                    </Border>
-                    <VerticalAlign>Middle</VerticalAlign>
-                    <PaddingLeft>2pt</PaddingLeft>
-                    <PaddingRight>2pt</PaddingRight>
-                    <PaddingTop>2pt</PaddingTop>
-                    <PaddingBottom>2pt</PaddingBottom>
-                  </Style>
-                </Textbox>
-              </ReportItems>
-              <KeepTogether>true</KeepTogether>
-              <Top>0.9in</Top>
-              <Left>0.22554in</Left>
-              <Height>1.42708in</Height>
-              <Width>4.41603in</Width>
-              <ZIndex>1</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-              </Style>
-            </Rectangle>
-            <Rectangle Name="Rectangle2">
-              <KeepTogether>true</KeepTogether>
-              <Top>0.9in</Top>
-              <Left>4.64157in</Left>
-              <Height>1.42708in</Height>
-              <Width>2.88705in</Width>
-              <ZIndex>2</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-              </Style>
-            </Rectangle>
             <Textbox Name="Textbox25">
               <CanGrow>true</CanGrow>
               <KeepTogether>true</KeepTogether>
@@ -1761,10 +1670,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.98909in</Top>
-              <Left>0.35054in</Left>
+              <Left>0.23804in</Left>
               <Height>0.21875in</Height>
               <Width>0.26042in</Width>
-              <ZIndex>3</ZIndex>
+              <ZIndex>1</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>
@@ -1803,7 +1712,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>เงินสด</Value>
+                      <Value>เงินสด/Cash</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -1815,10 +1724,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.98909in</Top>
-              <Left>0.6804in</Left>
+              <Left>0.5679in</Left>
               <Height>0.21875in</Height>
-              <Width>0.42014in</Width>
-              <ZIndex>4</ZIndex>
+              <Width>0.76389in</Width>
+              <ZIndex>2</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -1850,10 +1759,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.98909in</Top>
-              <Left>1.26373in</Left>
+              <Left>1.51373in</Left>
               <Height>0.21875in</Height>
               <Width>0.26042in</Width>
-              <ZIndex>5</ZIndex>
+              <ZIndex>3</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>
@@ -1892,7 +1801,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>เงินโอน</Value>
+                      <Value>เงินโอน/Transfer</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -1904,10 +1813,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.98909in</Top>
-              <Left>1.59359in</Left>
+              <Left>1.84359in</Left>
               <Height>0.21875in</Height>
-              <Width>0.42014in</Width>
-              <ZIndex>6</ZIndex>
+              <Width>1.09722in</Width>
+              <ZIndex>4</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -1939,10 +1848,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>1.27728in</Top>
-              <Left>0.35054in</Left>
+              <Left>0.23804in</Left>
               <Height>0.21875in</Height>
               <Width>0.26042in</Width>
-              <ZIndex>7</ZIndex>
+              <ZIndex>5</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>
@@ -1981,7 +1890,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>เช็คธนาคาร</Value>
+                      <Value>เช็คธนาคาร/Cheque</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -1993,10 +1902,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>1.27728in</Top>
-              <Left>0.6804in</Left>
+              <Left>0.5679in</Left>
               <Height>0.21875in</Height>
-              <Width>0.67014in</Width>
-              <ZIndex>8</ZIndex>
+              <Width>1.1007in</Width>
+              <ZIndex>6</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2024,11 +1933,11 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>1.76548in</Top>
-              <Left>0.35054in</Left>
+              <Top>1.89048in</Top>
+              <Left>0.22554in</Left>
               <Height>0.26042in</Height>
               <Width>1.43056in</Width>
-              <ZIndex>9</ZIndex>
+              <ZIndex>7</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2040,11 +1949,11 @@
               </Style>
             </Textbox>
             <Line Name="Line3">
-              <Top>1.95992in</Top>
+              <Top>2.08492in</Top>
               <Left>1.84012in</Left>
               <Height>0in</Height>
               <Width>1.29167in</Width>
-              <ZIndex>10</ZIndex>
+              <ZIndex>8</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>
@@ -2057,7 +1966,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>วันที่</Value>
+                      <Value>วันที่/Date</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2068,11 +1977,11 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>1.76548in</Top>
+              <Top>1.89048in</Top>
               <Left>3.21422in</Left>
               <Height>0.26042in</Height>
-              <Width>0.31597in</Width>
-              <ZIndex>11</ZIndex>
+              <Width>0.69097in</Width>
+              <ZIndex>9</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2083,24 +1992,12 @@
                 <PaddingBottom>2pt</PaddingBottom>
               </Style>
             </Textbox>
-            <Line Name="Line4">
-              <Top>1.95992in</Top>
-              <Left>3.58054in</Left>
-              <Height>0in</Height>
-              <Width>0.98875in</Width>
-              <ZIndex>12</ZIndex>
-              <Style>
-                <Border>
-                  <Style>Solid</Style>
-                </Border>
-              </Style>
-            </Line>
             <Line Name="Line5">
               <Top>1.53134in</Top>
-              <Left>1.84012in</Left>
+              <Left>1.6179in</Left>
               <Height>0in</Height>
-              <Width>1.29167in</Width>
-              <ZIndex>13</ZIndex>
+              <Width>1.40604in</Width>
+              <ZIndex>10</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>
@@ -2113,7 +2010,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>สาขา</Value>
+                      <Value>สาขา/Branch</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2124,11 +2021,11 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>1.3369in</Top>
-              <Left>3.21422in</Left>
+              <Top>1.27728in</Top>
+              <Left>3.09339in</Left>
               <Height>0.26042in</Height>
-              <Width>0.31597in</Width>
-              <ZIndex>14</ZIndex>
+              <Width>0.74236in</Width>
+              <ZIndex>11</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2141,84 +2038,16 @@
             </Textbox>
             <Line Name="Line6">
               <Top>1.53134in</Top>
-              <Left>3.58054in</Left>
+              <Left>3.83054in</Left>
               <Height>0in</Height>
-              <Width>0.98875in</Width>
-              <ZIndex>15</ZIndex>
+              <Width>1.20055in</Width>
+              <ZIndex>12</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>
                 </Border>
               </Style>
             </Line>
-            <Textbox Name="Textbox44">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>ในนาม</Value>
-                      <Style>
-                        <FontFamily>Tahoma</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Center</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>0.98909in</Top>
-              <Left>4.71679in</Left>
-              <Height>0.21875in</Height>
-              <Width>0.42014in</Width>
-              <ZIndex>16</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Textbox Name="Textbox46">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=First(Fields!ComText_1.Value, "DataSet_Result")</Value>
-                      <Style>
-                        <FontFamily>Tahoma</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Center</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>0.98909in</Top>
-              <Left>5.19248in</Left>
-              <Height>0.21875in</Height>
-              <Width>2.20472in</Width>
-              <ZIndex>17</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
             <Textbox Name="Textbox48">
               <KeepTogether>true</KeepTogether>
               <Paragraphs>
@@ -2238,11 +2067,11 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>1.89048in</Top>
-              <Left>4.96679in</Left>
+              <Top>2.01548in</Top>
+              <Left>5.17282in</Left>
               <Height>0.27083in</Height>
-              <Width>2.43042in</Width>
-              <ZIndex>18</ZIndex>
+              <Width>2.34939in</Width>
+              <ZIndex>13</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2254,11 +2083,11 @@
               </Style>
             </Textbox>
             <Line Name="Line9">
-              <Top>1.80843in</Top>
-              <Left>5.34179in</Left>
+              <Top>1.93343in</Top>
+              <Left>5.34895in</Left>
               <Height>0in</Height>
-              <Width>1.74354in</Width>
-              <ZIndex>19</ZIndex>
+              <Width>2.04825in</Width>
+              <ZIndex>14</ZIndex>
               <Style>
                 <Border>
                   <Style>Solid</Style>
@@ -2284,11 +2113,11 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>2.39652in</Top>
+              <Top>2.52152in</Top>
               <Left>0.35054in</Left>
               <Height>0.27083in</Height>
               <Width>7.04666in</Width>
-              <ZIndex>20</ZIndex>
+              <ZIndex>15</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2318,11 +2147,11 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
-              <Top>2.60485in</Top>
+              <Top>2.72985in</Top>
               <Left>0.35054in</Left>
               <Height>0.27083in</Height>
               <Width>7.04666in</Width>
-              <ZIndex>21</ZIndex>
+              <ZIndex>16</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2335,11 +2164,11 @@
             </Textbox>
             <Rectangle Name="Rectangle4">
               <KeepTogether>true</KeepTogether>
-              <Top>2.32708in</Top>
+              <Top>2.45208in</Top>
               <Left>0.22554in</Left>
               <Height>0.66319in</Height>
               <Width>7.30308in</Width>
-              <ZIndex>22</ZIndex>
+              <ZIndex>17</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2370,7 +2199,7 @@
               <Left>0.21893in</Left>
               <Height>0.21875in</Height>
               <Width>1.30522in</Width>
-              <ZIndex>23</ZIndex>
+              <ZIndex>18</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2403,8 +2232,8 @@
               <Top>0.575in</Top>
               <Left>1.56582in</Left>
               <Height>0.21875in</Height>
-              <Width>3.69256in</Width>
-              <ZIndex>24</ZIndex>
+              <Width>3.28819in</Width>
+              <ZIndex>19</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2437,10 +2266,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.575in</Top>
-              <Left>6.18881in</Left>
+              <Left>6.47006in</Left>
               <Height>0.21875in</Height>
-              <Width>1.30874in</Width>
-              <ZIndex>25</ZIndex>
+              <Width>1.02749in</Width>
+              <ZIndex>20</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2472,10 +2301,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.07917in</Top>
-              <Left>6.18881in</Left>
+              <Left>6.47006in</Left>
               <Height>0.21875in</Height>
-              <Width>1.30874in</Width>
-              <ZIndex>26</ZIndex>
+              <Width>1.02749in</Width>
+              <ZIndex>21</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2507,10 +2336,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.31042in</Top>
-              <Left>6.18881in</Left>
+              <Left>6.47006in</Left>
               <Height>0.21875in</Height>
-              <Width>1.30874in</Width>
-              <ZIndex>27</ZIndex>
+              <Width>1.02749in</Width>
+              <ZIndex>22</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2527,7 +2356,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Amount</Value>
+                      <Value>จำนวนเงิน/Amount</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2542,10 +2371,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.07917in</Top>
-              <Left>4.75177in</Left>
+              <Left>4.69969in</Left>
               <Height>0.21875in</Height>
-              <Width>1.36759in</Width>
-              <ZIndex>28</ZIndex>
+              <Width>1.73217in</Width>
+              <ZIndex>23</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2562,7 +2391,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>VAT 7 %</Value>
+                      <Value>ภาษีมูลค่าเพิ่ม/VAT 7 %</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2577,10 +2406,10 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.31042in</Top>
-              <Left>4.75177in</Left>
+              <Left>4.69969in</Left>
               <Height>0.21875in</Height>
-              <Width>1.36759in</Width>
-              <ZIndex>29</ZIndex>
+              <Width>1.73217in</Width>
+              <ZIndex>24</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2597,7 +2426,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>Grand Total</Value>
+                      <Value>จำนวนเงินทั้งสิ้น/Grand Total</Value>
                       <Style>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>8pt</FontSize>
@@ -2613,10 +2442,168 @@
               </Paragraphs>
               <rd:DefaultName>Textbox25</rd:DefaultName>
               <Top>0.575in</Top>
-              <Left>5.34895in</Left>
+              <Left>4.90957in</Left>
               <Height>0.21875in</Height>
-              <Width>0.77041in</Width>
+              <Width>1.52229in</Width>
+              <ZIndex>25</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox44">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>เลขที่เช็ค/Cheque No.</Value>
+                      <Style>
+                        <FontFamily>Tahoma</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox25</rd:DefaultName>
+              <Top>1.27092in</Top>
+              <Left>5.07469in</Left>
+              <Height>0.26042in</Height>
+              <Width>1.18027in</Width>
+              <ZIndex>26</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Line Name="Line7">
+              <Top>1.52498in</Top>
+              <Left>6.22056in</Left>
+              <Height>0in</Height>
+              <Width>1.27699in</Width>
+              <ZIndex>27</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+            <Line Name="Line8">
+              <Top>2.08492in</Top>
+              <Left>3.86526in</Left>
+              <Height>0in</Height>
+              <Width>1.16583in</Width>
+              <ZIndex>28</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+            <Textbox Name="Textbox46">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!ChequeBankName.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontFamily>Tahoma</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox25</rd:DefaultName>
+              <Top>1.25703in</Top>
+              <Left>1.6686in</Left>
+              <Height>0.21875in</Height>
+              <Width>1.39701in</Width>
+              <ZIndex>29</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox70">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!ChequeBranchName.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontFamily>Tahoma</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox25</rd:DefaultName>
+              <Top>1.27728in</Top>
+              <Left>3.83054in</Left>
+              <Height>0.21875in</Height>
+              <Width>1.18859in</Width>
               <ZIndex>30</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox71">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!ChequeNo.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontFamily>Tahoma</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox25</rd:DefaultName>
+              <Top>1.27728in</Top>
+              <Left>6.22056in</Left>
+              <Height>0.21875in</Height>
+              <Width>1.27699in</Width>
+              <ZIndex>31</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2720,6 +2707,18 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
+        <Field Name="ChequeBankName">
+          <DataField>ChequeBankName</DataField>
+        </Field>
+        <Field Name="ChequeBranchName">
+          <DataField>ChequeBranchName</DataField>
+        </Field>
+        <Field Name="ChequeNo">
+          <DataField>ChequeNo</DataField>
+        </Field>
+        <Field Name="ChequeDate">
+          <DataField>ChequeDate</DataField>
+        </Field>
         <Field Name="SplitApproveDate_1">
           <DataField>SplitApproveDate_1</DataField>
         </Field>

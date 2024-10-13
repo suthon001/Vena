@@ -15,6 +15,10 @@ report 82004 "VENA Sales Receipt"
             DataItemTableView = sorting("Document Type", "No.");
             RequestFilterFields = "Document Type", "No.";
             CalcFields = "Amount (LCY)", "Amount", "VENA Total Sales (LCY)";
+            column(ChequeBankName; ChequeBankName) { }
+            column(ChequeBranchName; ChequeBranchName) { }
+            column(ChequeNo; ChequeNo) { }
+            column(ChequeDate; format(ChequeDate, 0, '<Day,2>/<Month,2>/<Year4>')) { }
             column(SplitApproveDate_1; ApproveDate[1]) { }
             column(SplitApproveDate_2; ApproveDate[2]) { }
             column(SplitApproveDate_3; ApproveDate[3]) { }
@@ -157,6 +161,10 @@ report 82004 "VENA Sales Receipt"
                         BankAcc.Init();
                     BankName := BankAcc.Name;
                     BankBranchNo := BankAcc."Bank Branch No.";
+                    ChequeBankName := "VENA Cheque Bank Name";
+                    ChequeBranchName := "VENA Cheque Bank Branch";
+                    ChequeNo := "Cheque No.";
+                    ChequeDate := "Cheque Date";
                 end;
 
 
@@ -222,6 +230,7 @@ report 82004 "VENA Sales Receipt"
 
         NoOfCopies, LineNo : Integer;
         CaptionOptionEng, CaptionOptionThai : Text[50];
-        ApproveBy: Text;
+        ChequeDate: Date;
+        ApproveBy, ChequeBankName, ChequeBranchName, ChequeNo : Text;
 
 }

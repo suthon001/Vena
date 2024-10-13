@@ -2,7 +2,7 @@
   "id": "03fb2299-b423-42bd-b779-80f0025c93cc",
   "name": "Vena adjust lcl",
   "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
-  "version": "1.0.1.1",
+  "version": "1.0.1.2",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -15,7 +15,7 @@
       "id": "c80e25ac-8f80-4d65-85b9-211b292609b8",
       "publisher": "Yokogawa Votiva Solutions Co., Ltd.",
       "name": "Thai Localized",
-      "version": "24.0.2.3"
+      "version": "24.0.2.11"
     }
   ],
   "screenshots": [],

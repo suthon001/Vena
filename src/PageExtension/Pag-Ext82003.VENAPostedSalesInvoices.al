@@ -3,6 +3,7 @@
 /// </summary>
 pageextension 82003 "VENA Posted Sales Invoices" extends "Posted Sales Invoices"
 {
+
     actions
     {
         addafter("AR Voucher")
@@ -47,12 +48,35 @@ pageextension 82003 "VENA Posted Sales Invoices" extends "Posted Sales Invoices"
                     Report.Run(Report::"VENA Sales Invoice (Post)", TRUE, TRUE, RecSalesHeader);
                 end;
             }
+            action("VENAPrint_DebitNote")
+            {
+                ApplicationArea = All;
+                Caption = 'Sales Invoice';
+                Image = PrintReport;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Report;
+                Visible = CheckDisableLCL;
+                ToolTip = 'Executes the Sales Invoice action.';
+                trigger OnAction()
+                var
+                    RecSalesHeader: Record "Sales Invoice Header";
+                begin
+                    RecSalesHeader.RESET();
+                    RecSalesHeader.SetRange("No.", rec."No.");
+                    Report.Run(Report::"VENA Debit Note (Post)", TRUE, TRUE, RecSalesHeader);
+                end;
+            }
         }
         modify("AR Voucher")
         {
             Visible = false;
         }
         modify(Print_Sales_Invoice)
+        {
+            Visible = false;
+        }
+        modify(Print_DebitNote)
         {
             Visible = false;
         }

@@ -3,6 +3,22 @@
 /// </summary>
 pageextension 82006 "VENA Sales Receipt Card" extends "YVS Sales Receipt Card"
 {
+    layout
+    {
+        addafter("Cheque No.")
+        {
+            field("VENA Cheque Bank Name"; rec."VENA Cheque Bank Name")
+            {
+                ApplicationArea = all;
+                ToolTip = 'Specifies the value of the Cheque Bank Name field.';
+            }
+            field("VENA Cheque Bank Branch"; rec."VENA Cheque Bank Branch")
+            {
+                ApplicationArea = all;
+                ToolTip = 'Specifies the value of the Cheque Bank Branch field.';
+            }
+        }
+    }
     actions
     {
         addafter("Sales Receipt")
