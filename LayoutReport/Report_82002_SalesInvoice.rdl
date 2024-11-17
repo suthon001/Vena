@@ -40,16 +40,16 @@
                                     <Width>1.3689cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.11363cm</Width>
+                                    <Width>1.0078cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>2.5cm</Width>
+                                    <Width>2.28833cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>0.7698cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>2.5cm</Width>
+                                    <Width>2.02375cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.37465cm</Width>
@@ -64,7 +64,7 @@
                                     <Width>1.06753cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.98268cm</Width>
+                                    <Width>1.32664cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.07596cm</Width>
@@ -73,7 +73,7 @@
                                     <Width>0.88604cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.91792cm</Width>
+                                    <Width>2.41861cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -223,7 +223,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>External Document No.</Value>
+                                                    <Value>Ex. Document No.</Value>
                                                     <Style>
                                                       <FontFamily>Tahoma</FontFamily>
                                                       <FontSize>8pt</FontSize>
@@ -2278,7 +2278,7 @@ Due Date</Value>
                                       <TablixCell />
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox8">
+                                          <Textbox Name="Textbox2">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
@@ -2295,7 +2295,7 @@ Due Date</Value>
                                                 <Style />
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Textbox8</rd:DefaultName>
+                                            <rd:DefaultName>Textbox2</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -2306,40 +2306,10 @@ Due Date</Value>
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
+                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox36">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontFamily>Tahoma</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox36</rd:DefaultName>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
+                                      <TablixCell />
                                       <TablixCell>
                                         <CellContents>
                                           <Textbox Name="Textbox19">
@@ -2406,7 +2376,7 @@ Due Date</Value>
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox27">
+                                          <Textbox Name="Textbox7">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
@@ -2423,7 +2393,7 @@ Due Date</Value>
                                                 <Style />
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>Textbox27</rd:DefaultName>
+                                            <rd:DefaultName>Textbox7</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>None</Style>
@@ -2506,7 +2476,7 @@ Due Date</Value>
                               <Top>0.08114cm</Top>
                               <Left>0.06336cm</Left>
                               <Height>4.60429cm</Height>
-                              <Width>19.56601cm</Width>
+                              <Width>19.61691cm</Width>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -4120,9 +4090,9 @@ Due Date</Value>
               </Paragraphs>
               <rd:DefaultName>Textbox88</rd:DefaultName>
               <Top>0.31429cm</Top>
-              <Left>17.29681cm</Left>
+              <Left>17.21744cm</Left>
               <Height>0.6cm</Height>
-              <Width>2.38945cm</Width>
+              <Width>2.46883cm</Width>
               <ZIndex>9</ZIndex>
               <Visibility>
                 <Hidden>=Globals!PageNumber &lt;&gt; Globals!TotalPages</Hidden>
@@ -4159,9 +4129,9 @@ Due Date</Value>
               </Paragraphs>
               <rd:DefaultName>Textbox88</rd:DefaultName>
               <Top>0.91429cm</Top>
-              <Left>17.29681cm</Left>
+              <Left>17.21744cm</Left>
               <Height>0.6cm</Height>
-              <Width>2.38945cm</Width>
+              <Width>2.46883cm</Width>
               <ZIndex>10</ZIndex>
               <Visibility>
                 <Hidden>=Globals!PageNumber &lt;&gt; Globals!TotalPages</Hidden>
@@ -4198,9 +4168,9 @@ Due Date</Value>
               </Paragraphs>
               <rd:DefaultName>Textbox88</rd:DefaultName>
               <Top>1.51429cm</Top>
-              <Left>17.29681cm</Left>
+              <Left>17.21744cm</Left>
               <Height>0.6cm</Height>
-              <Width>2.38945cm</Width>
+              <Width>2.46883cm</Width>
               <ZIndex>11</ZIndex>
               <Visibility>
                 <Hidden>=Globals!PageNumber &lt;&gt; Globals!TotalPages</Hidden>
@@ -4237,9 +4207,9 @@ Due Date</Value>
               </Paragraphs>
               <rd:DefaultName>Textbox88</rd:DefaultName>
               <Top>2.11429cm</Top>
-              <Left>17.29681cm</Left>
+              <Left>17.21744cm</Left>
               <Height>0.6cm</Height>
-              <Width>2.38945cm</Width>
+              <Width>2.46883cm</Width>
               <ZIndex>12</ZIndex>
               <Visibility>
                 <Hidden>=Globals!PageNumber &lt;&gt; Globals!TotalPages</Hidden>
@@ -4276,9 +4246,9 @@ Due Date</Value>
               </Paragraphs>
               <rd:DefaultName>Textbox88</rd:DefaultName>
               <Top>2.71429cm</Top>
-              <Left>17.29681cm</Left>
+              <Left>17.21744cm</Left>
               <Height>0.6cm</Height>
-              <Width>2.38945cm</Width>
+              <Width>2.46883cm</Width>
               <ZIndex>13</ZIndex>
               <Visibility>
                 <Hidden>=Globals!PageNumber &lt;&gt; Globals!TotalPages</Hidden>
